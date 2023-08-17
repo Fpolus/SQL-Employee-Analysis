@@ -17,7 +17,7 @@ CREATE TABLE salaries (
 
 CREATE TABLE departments (
     dept_no VARCHAR(10) NOT NULL,
-    dept_name VARCHAR(100) NOT NULL,
+    dept_name VARCHAR(50) NOT NULL,
     PRIMARY KEY (dept_no)
 );
 
