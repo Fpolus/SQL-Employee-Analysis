@@ -2,9 +2,9 @@ CREATE TABLE employee (
     emp_no INT NOT NULL,
     emp_title_id VARCHAR(10) NOT NULL,
     birth_date DATE NOT NULL,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    sex CHAR(1) NOT NULL,
+    first_name VARCHAR(40) NOT NULL,
+    last_name VARCHAR(40) NOT NULL,
+    sex VARCHAR(5) NOT NULL,
     hire_date DATE NOT NULL,
     PRIMARY KEY (emp_no)
 );
@@ -17,7 +17,7 @@ CREATE TABLE salaries (
 
 CREATE TABLE departments (
     dept_no VARCHAR(10) NOT NULL,
-    dept_name VARCHAR(50) NOT NULL,
+    dept_name VARCHAR(40) NOT NULL,
     PRIMARY KEY (dept_no)
 );
 
@@ -38,6 +38,6 @@ CREATE TABLE department_employees (
 
 CREATE TABLE titles (
     title_id VARCHAR(10) NOT NULL,
-    title VARCHAR(50) NOT NULL,
+    title VARCHAR(40) NOT NULL,
     PRIMARY KEY (title_id)
 );

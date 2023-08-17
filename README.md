@@ -40,10 +40,17 @@ List each employee in the Sales and Development departments, including their emp
 
 List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-# ------------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------------
 
 # Additional Comments
-All queries and tables were made from code I wrote, no code was copied from the internet. I did use the internet to help me understand the concepts and syntax of SQL. I used the following websites to help me:
+- All queries and tables were made from code I wrote, no code was copied from the internet.
+
+- I've added the results of the queries to the `results` folder.
+- I've added the ERD to the `ERD` folder.
+- I've added the `schema.sql` file to the `schema` folder.
+- I've added the `queries.sql` file to the `queries` folder.
+
+- I did use the internet to help me understand the concepts and syntax of SQL. I used the following websites to help me:
 * https://www.w3schools.com/sql/default.asp
 * https://www.postgresqltutorial.com/
 * https://www.postgresql.org/docs/9.5/sql-createtable.html
