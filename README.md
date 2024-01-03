@@ -1,4 +1,4 @@
-# Pewlett Hackard Employee Database Project
+# Employee Database Project
 
 ## Background
 The task involved researching employees hired during the 1980s and 1990s using provided CSV files. The project encompassed three key aspects: data modeling, data engineering, and data analysis.
